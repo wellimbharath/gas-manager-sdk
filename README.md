@@ -5,14 +5,14 @@ This is the official SDK for the Gasmanager API. It provides a simple way to int
 ## Installation
 
 ```bash
-npm install gasmanager
+npm install gas-manager-sdk
 ```
 
 
 ## Usage
 
 ```javascript
-const Gasmanager = require('gasmanager');
+const Gasmanager = require('gas-manager-sdk');
 
 const gasmanager = new Gasmanager({
     apiKey: 'your-api-key',
