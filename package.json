@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-package-boilerplate",
+  "name": "gas-manager-sdk",
   "version": "0.2.5",
-  "description": "TypeScript NPM Module Boilerplate",
+  "description": "Gas Manager SDK",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,18 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertcisco/ts-npm-package-boilerplate.git"
+    "url": "git+https://github.com/wellimbharath/gas-manager-sdk.git"
   },
   "keywords": [
     "boilerplate",
     "typescript"
   ],
-  "author": "Hebert Cisco",
-  "license": "MIT",
+  "author": "Bharath M", 
   "bugs": {
-    "url": "https://github.com/hebertcisco/ts-npm-package-boilerplate/issues"
+    "url": "https://github.com/wellimbharath/gas-manager-sdk/issues"
   },
-  "homepage": "https://github.com/hebertcisco/ts-npm-package-boilerplate#readme",
+  "homepage": "https://github.com/wellimbharath/gas-manager-sdk#readme",
   "devDependencies": {
     "@types/jest": "29.4.0",
     "@typescript-eslint/eslint-plugin": "5.54.0",
@@ -43,5 +42,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.91.1",
+    "axios": "^1.6.8"
+  }
 }
