@@ -1,6 +1,6 @@
 {
   "name": "gas-manager-sdk",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Gas Manager SDK",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,7 +24,7 @@
     "boilerplate",
     "typescript"
   ],
-  "author": "Bharath M", 
+  "author": "Bharath M",
   "bugs": {
     "url": "https://github.com/wellimbharath/gas-manager-sdk/issues"
   },
@@ -45,6 +45,7 @@
   ],
   "dependencies": {
     "@solana/web3.js": "^1.91.1",
-    "axios": "^1.6.8"
+    "axios": "^1.6.8",
+    "gas-manager-sdk": "^0.2.6"
   }
 }
